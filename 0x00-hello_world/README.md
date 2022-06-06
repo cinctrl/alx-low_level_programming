@@ -2,5 +2,5 @@
 
 |Exercise/Task|Descriptions| 
 |-----|-----|
-|#`preprocessor`:| This outputs the preprocessed code to `c` file|
+|`#preprocessor`:| This outputs the preprocessed code to `c` file|
 	
