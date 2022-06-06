@@ -1,4 +1,6 @@
 ## 0x00. C - Hello, World - C -introduction
 
-|#`preprocessor`:| This outputs the preprcessed code to c file|
-
+|Exercise/Task|Descriptions| 
+|-----|-----|
+|#`preprocessor`:| This outputs the preprocessed code to `c` file|
+	
