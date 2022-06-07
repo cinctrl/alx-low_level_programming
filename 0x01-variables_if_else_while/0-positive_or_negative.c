@@ -1,12 +1,12 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
+#include <time.h>
+
 /**
- * main - Entry point
+ * main - Dertermine if a random number is positive, negative or Zero
  *
- * Return: Always 0 (success)
+ * Return: 0 on (success)
  */
-/* betty style doc for function main goes there */
 int main(void)
 {
 	int n;
@@ -14,18 +14,17 @@ int main(void)
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/* your code goes there */
-	printf("%d\n", n);
-	if (n > 0)
+	if (n < 0)
 	{
-		printf("if the number is greater than 0: is positive\n");
-	else if (n == 0)
-	{
-		printf("if the number is 0: is zero\n");
+		printf("%d is %s\n", n, "negative");
 	}
-	else if (n < 0)
+	else if (n > 0)
 	{
-		printf("if the number is less than 0: is negative\n");
+		printf("%d is %s\n", n, "positive");
 	}
-
+	else
+	{
+		printf("%d is %s\n", n, "zero");
+	}
 	return (0);
 }
