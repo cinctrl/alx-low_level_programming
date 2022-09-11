@@ -1,4 +1,4 @@
 # Task 0: Positive anything is better than negative nothing
-	This c program will print a random assined string depending the `n` variable
+	This c program will print a random assigned string depending the `n` variable i.e `"n(value) string(text)"`  
 
-# Task 1: 
+# Task 2: 
