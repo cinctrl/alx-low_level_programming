@@ -4,7 +4,7 @@
  *
  *  Return: always 0
  */
-int main()
+int main(void)
 {
 	char ch;
 
@@ -12,8 +12,8 @@ int main()
 	while (ch <= 'z')
 	{
 		putchar(ch);
-		putchar('\n');
 		ch++;
 	}
+	putchar('\n');
 	return (0);
 }
