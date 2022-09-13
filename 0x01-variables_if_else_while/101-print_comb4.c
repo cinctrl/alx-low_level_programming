@@ -12,28 +12,28 @@ int main(void)
 
 	for (a = '0'; a <= '9'; a++)
 	{
-		for (b = '0'; b <= '9'; b++)
+	for (b = '0'; b <= '9'; b++)
+	{
+	for (c = '0'; c <= '9'; c++)
+	{
+		if (a < b && b < c)
 		{
-			for (c = '0'; c <= '9'; c++)
+			putchar(a);
+			putchar(b);
+			putchar(c);
+			if (a != '8' || (a == '8' && b != '9'))
 			{
-				if (a < b && b < c)
+				if (a == '7' && b == '8' && c == '9')
+					continue;
+				else
 				{
-					putchar(a);
-					putchar(b);
-					putchar(c);
-					if (a != '8' || (a == '8' && b != '9'))
-					{	
-						if (a == '7' && b == '8' & c == '9')
-							continue;
-						else
-						{
-							putchar(',');
-							putchar(' ');
-						}
-										}
+					putchar(',');
+					putchar(' ');
 				}
 			}
 		}
+	}
+	}
 	}
 
 	putchar('\n');
