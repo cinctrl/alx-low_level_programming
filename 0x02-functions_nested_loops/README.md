@@ -1,3 +1,0 @@
-|Task|Description|
-|----|----|
-|` _putchar`|
