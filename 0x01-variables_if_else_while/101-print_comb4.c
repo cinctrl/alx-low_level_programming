@@ -21,10 +21,13 @@ int main(void)
 					putchar(a);
 					putchar(b);
 					putchar(c);
-					if (a != '8' || (a == '8' && (b != '9' || c != '9')))
+					if (a != '8' || (a == '8' && b != '9' ))
 					{
-						putchar(',');
-						putchar(' ');
+						if (!(a == '7' && b == '8' && c == '9'))
+						{
+							putchar(',');
+							putchar(' ');
+						}
 					}
 				}
 					
