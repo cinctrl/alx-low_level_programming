@@ -7,10 +7,11 @@
 int main(void)
 {
 	char val[] = "_putchar";
-
-	for (int c = 0; c < 8; c++)
+	int c;
+	while (c < 8)
 	{
 		_putchar(val[c]);
+		c++;
 	}
 
 	_putchar('\n');
